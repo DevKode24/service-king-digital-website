@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import Hero from "../components/Hero";
 
@@ -7,90 +8,33 @@ export default function Home() {
       icon: "bi-people",
       title: "Trouver plus de clients",
       description:
-        "Développez votre visibilité et transformez votre présence numérique en opportunités commerciales.",
+        "Améliorez votre visibilité et transformez vos contacts digitaux en opportunités commerciales.",
     },
     {
-      icon: "bi-laptop",
+      icon: "bi-phone",
+      title: "Être facilement joignable",
+      description:
+        "Centralisez WhatsApp, téléphone, localisation, réseaux sociaux et catalogue au même endroit.",
+    },
+    {
+      icon: "bi-shop",
       title: "Digitaliser votre activité",
       description:
-        "Mettez en place des outils numériques simples pour améliorer votre organisation et votre efficacité.",
+        "Passez d'une activité traditionnelle à une présence professionnelle et accessible en ligne.",
     },
     {
       icon: "bi-globe2",
-      title: "Acheter à l'international",
+      title: "Développer vos projets",
       description:
-        "Soyez accompagné dans la recherche de produits, fournisseurs et opérations d'approvisionnement.",
-    },
-    {
-      icon: "bi-mortarboard",
-      title: "Étudier à l'étranger",
-      description:
-        "Structurez votre projet académique et bénéficiez d'un accompagnement dans vos démarches.",
-    },
-  ];
-
-  const services = [
-    {
-      number: "01",
-      icon: "bi-code-slash",
-      title: "Solutions numériques",
-      description:
-        "Nous concevons des solutions numériques adaptées aux besoins réels de votre activité.",
-      items: [
-        "Sites web",
-        "Applications web et mobiles",
-        "Plateformes de gestion",
-        "Digitalisation des processus",
-      ],
-      link: "/developpement",
-    },
-    {
-      number: "02",
-      icon: "bi-megaphone",
-      title: "Marketing digital",
-      description:
-        "Nous vous aidons à développer votre visibilité, attirer des prospects et générer des opportunités.",
-      items: [
-        "Réseaux sociaux",
-        "Création de contenus",
-        "Publicité digitale",
-        "Acquisition de prospects",
-      ],
-      link: "/marketing-digital",
-    },
-    {
-      number: "03",
-      icon: "bi-box-seam",
-      title: "Commerce international",
-      description:
-        "Nous facilitons vos projets d'achat et d'approvisionnement auprès de fournisseurs internationaux.",
-      items: [
-        "Recherche de produits",
-        "Recherche de fournisseurs",
-        "Commandes internationales",
-        "Suivi logistique",
-      ],
-      link: "/commerce-international",
-    },
-    {
-      number: "04",
-      icon: "bi-airplane",
-      title: "Mobilité académique",
-      description:
-        "Nous accompagnons les étudiants dans leurs projets d'études et leur mobilité internationale.",
-      items: [
-        "Orientation académique",
-        "Recherche d'opportunités",
-        "Préparation des dossiers",
-        "Accompagnement administratif",
-      ],
-      link: "/mobilite-academique",
+        "Importation, développement digital, marketing ou mobilité académique : nous construisons une solution adaptée.",
     },
   ];
 
   const offers = [
     {
+      icon: "bi-phone",
       title: "Pack Digitalisation",
+      subtitle: "Pour rendre votre activité visible et accessible.",
       price: "À partir de 75 000 FCFA",
       items: [
         "Page professionnelle",
@@ -100,53 +44,151 @@ export default function Home() {
         "Google Business",
         "Réseaux sociaux",
       ],
+      cta: "Digitaliser mon activité",
     },
     {
+      icon: "bi-megaphone",
       title: "Pack Marketing",
+      subtitle: "Pour attirer des prospects et développer vos ventes.",
       price: "À partir de 100 000 FCFA",
       items: [
         "Création de contenus",
         "Publications",
         "Stratégie digitale",
-        "Acquisition",
-        "Suivi des prospects",
+        "Acquisition de prospects",
+        "Suivi commercial",
       ],
+      cta: "Développer mes ventes",
       featured: true,
     },
     {
-      title: "Pack Commerce International",
+      icon: "bi-box-seam",
+      title: "Commerce International",
+      subtitle: "Pour acheter et approvisionner votre activité.",
       price: "Sur devis",
       items: [
         "Recherche de produits",
         "Recherche fournisseurs",
+        "Négociation",
+        "Commandes internationales",
+        "Suivi logistique",
+      ],
+      cta: "Mon projet d'importation",
+    },
+  ];
+
+  const services = [
+    {
+      number: "01",
+      icon: "bi-laptop",
+      title: "Digitalisation",
+      description:
+        "Nous transformons les activités traditionnelles en expériences digitales simples, professionnelles et accessibles.",
+      items: [
+        "Pages professionnelles",
+        "Catalogues numériques",
+        "Sites web",
+        "Solutions digitales",
+      ],
+      link: "/developpement",
+    },
+    {
+      number: "02",
+      icon: "bi-megaphone",
+      title: "Marketing digital",
+      description:
+        "Nous développons votre visibilité et mettons en place des actions orientées acquisition et conversion.",
+      items: [
+        "Réseaux sociaux",
+        "Contenus",
+        "Publicité digitale",
+        "Prospection",
+      ],
+      link: "/marketing-digital",
+    },
+    {
+      number: "03",
+      icon: "bi-globe2",
+      title: "Commerce international",
+      description:
+        "Nous accompagnons les entrepreneurs dans leurs recherches de produits, fournisseurs et opérations d'achat.",
+      items: [
+        "Produits",
+        "Fournisseurs",
         "Commandes",
         "Suivi",
+      ],
+      link: "/commerce-international",
+    },
+    {
+      number: "04",
+      icon: "bi-mortarboard",
+      title: "Mobilité académique",
+      description:
+        "Nous accompagnons les étudiants dans la construction et la préparation de leurs projets d'études à l'international.",
+      items: [
+        "Orientation",
+        "Opportunités",
+        "Dossiers",
         "Accompagnement",
       ],
+      link: "/mobilite-academique",
+    },
+  ];
+
+  const advantages = [
+    {
+      icon: "bi-geo-alt",
+      title: "Proximité",
+      description:
+        "Une approche adaptée aux réalités des entrepreneurs et professionnels de Libreville.",
+    },
+    {
+      icon: "bi-code-slash",
+      title: "Technologie",
+      description:
+        "Une expertise technique utilisée pour créer des solutions réellement utiles.",
+    },
+    {
+      icon: "bi-bullseye",
+      title: "Résultats",
+      description:
+        "Nous cherchons d'abord à résoudre un problème et à créer de la valeur.",
+    },
+    {
+      icon: "bi-arrow-repeat",
+      title: "Accompagnement",
+      description:
+        "Nous ne nous limitons pas à livrer un outil : nous vous accompagnons dans son utilisation.",
     },
   ];
 
   return (
     <>
-      {/* HERO */}
+      {/* =========================================================
+          HERO
+      ========================================================= */}
       <Hero />
 
-      {/* BESOINS */}
+      {/* =========================================================
+          BESOINS
+      ========================================================= */}
       <section className="skd-section">
         <div className="container">
 
           <div className="skd-section-title">
-            <span className="eyebrow">Votre besoin</span>
+            <span className="eyebrow">Vous êtes entrepreneur ?</span>
 
             <h2>
-              Vous avez un projet ?
+              Votre activité mérite
               <br />
-              Nous pouvons vous aider.
+              d'être mieux connectée.
             </h2>
 
             <p>
-              SKD transforme vos besoins en solutions concrètes,
-              adaptées à votre activité, votre budget et vos objectifs.
+              Que vous soyez commerçant, restaurateur, professionnel,
+              entrepreneur ou porteur de projet, SKD vous aide à
+              transformer vos besoins en solutions concrètes.
             </p>
           </div>
 
@@ -171,69 +213,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SERVICES */}
+      {/* =========================================================
+          OFFRES COMMERCIALES
+      ========================================================= */}
       <section className="skd-section skd-section-light">
-        <div className="container">
-
-          <div className="skd-section-title">
-            <span className="eyebrow">Nos domaines</span>
-
-            <h2>
-              Des solutions pour développer votre activité
-            </h2>
-
-            <p>
-              Quatre domaines d'intervention pour répondre aux
-              principaux besoins de nos clients.
-            </p>
-          </div>
-
-          <div className="row g-4">
-            {services.map((service) => (
-              <div className="col-md-6" key={service.number}>
-
-                <div className="skd-service-card">
-
-                  <span className="skd-service-number">
-                    {service.number}
-                  </span>
-
-                  <div className="skd-service-icon">
-                    <i className={`bi ${service.icon}`}></i>
-                  </div>
-
-                  <h3>{service.title}</h3>
-
-                  <p>{service.description}</p>
-
-                  <ul className="skd-service-list">
-                    {service.items.map((item) => (
-                      <li key={item}>
-                        <i className="bi bi-check2"></i>
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-
-                  <Link
-                    to={service.link}
-                    className="btn-skd-outline"
-                  >
-                    En savoir plus
-                    <i className="bi bi-arrow-right"></i>
-                  </Link>
-
-                </div>
-
-              </div>
-            ))}
-          </div>
-
-        </div>
-      </section>
-
-      {/* OFFRES */}
-      <section className="skd-section">
         <div className="container">
 
           <div className="skd-section-title">
@@ -241,16 +224,18 @@ export default function Home() {
 
             <h2>
               Des prestations concrètes,
-              pas seulement des promesses.
+              <br />
+              avec des résultats visibles.
             </h2>
 
             <p>
-              Choisissez une solution adaptée à votre besoin
-              ou contactez-nous pour construire une offre personnalisée.
+              Choisissez une solution adaptée à votre besoin.
+              Chaque prestation peut également être personnalisée.
             </p>
           </div>
 
           <div className="row g-4">
+
             {offers.map((offer) => (
               <div className="col-lg-4" key={offer.title}>
 
@@ -266,7 +251,13 @@ export default function Home() {
                     </span>
                   )}
 
+                  <div className="skd-need-icon mb-3">
+                    <i className={`bi ${offer.icon}`}></i>
+                  </div>
+
                   <h3>{offer.title}</h3>
+
+                  <p>{offer.subtitle}</p>
 
                   <div className="skd-offer-price">
                     {offer.price}
@@ -287,94 +278,314 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="btn-skd-primary w-100"
                   >
-                    Demander ce service
-                    <i className="bi bi-arrow-right"></i>
+                    {offer.cta}
+                    <i className="bi bi-whatsapp"></i>
                   </a>
 
                 </div>
 
               </div>
             ))}
+
           </div>
 
         </div>
       </section>
 
-      {/* POURQUOI SKD */}
+      {/* =========================================================
+          SMART DIGITAL CARD
+      ========================================================= */}
+      <section className="skd-section">
+        <div className="container">
+
+          <div className="row align-items-center g-5">
+
+            <div className="col-lg-6">
+
+              <span className="eyebrow">
+                Solution SKD
+              </span>
+
+              <h2>
+                Votre carte professionnelle
+                <br />
+                devient digitale.
+              </h2>
+
+              <p className="lead">
+                Avec la Smart Digital Card, un simple contact NFC,
+                un QR Code ou un lien permet d'accéder instantanément
+                à votre profil professionnel.
+              </p>
+
+              <div className="row g-3 mt-3">
+
+                <div className="col-sm-6">
+                  <div className="d-flex gap-3">
+                    <i className="bi bi-wifi fs-4"></i>
+                    <div>
+                      <strong>NFC</strong>
+                      <p className="mb-0">
+                        Un simple contact pour partager votre profil.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-sm-6">
+                  <div className="d-flex gap-3">
+                    <i className="bi bi-qr-code fs-4"></i>
+                    <div>
+                      <strong>QR Code</strong>
+                      <p className="mb-0">
+                        Accessible depuis presque tous les smartphones.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-sm-6">
+                  <div className="d-flex gap-3">
+                    <i className="bi bi-whatsapp fs-4"></i>
+                    <div>
+                      <strong>WhatsApp</strong>
+                      <p className="mb-0">
+                        Transformez une visite en conversation.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-sm-6">
+                  <div className="d-flex gap-3">
+                    <i className="bi bi-bar-chart"></i>
+                    <div>
+                      <strong>Profil digital</strong>
+                      <p className="mb-0">
+                        Présentez vos services, produits et contacts.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div className="mt-4">
+
+                <a
+                  href="https://wa.me/24105927486"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-skd-primary"
+                >
+                  Découvrir la Smart Digital Card
+                  <i className="bi bi-arrow-right"></i>
+                </a>
+
+              </div>
+
+            </div>
+
+            <div className="col-lg-6">
+
+              <div className="skd-service-card text-center">
+
+                <div className="skd-need-icon mx-auto mb-4">
+                  <i className="bi bi-phone"></i>
+                </div>
+
+                <h3>
+                  NFC + QR Code + Profil digital
+                </h3>
+
+                <p>
+                  Une seule identité digitale pour présenter
+                  votre activité, vos services et vos moyens de contact.
+                </p>
+
+                <div className="mt-4">
+
+                  <span className="badge text-bg-light me-2">
+                    Professionnels
+                  </span>
+
+                  <span className="badge text-bg-light me-2">
+                    Agents immobiliers
+                  </span>
+
+                  <span className="badge text-bg-light me-2">
+                    Commerçants
+                  </span>
+
+                  <span className="badge text-bg-light">
+                    Entrepreneurs
+                  </span>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      {/* =========================================================
+          DOMAINES
+      ========================================================= */}
       <section className="skd-section skd-section-light">
         <div className="container">
 
           <div className="skd-section-title">
-            <span className="eyebrow">Pourquoi SKD ?</span>
+
+            <span className="eyebrow">
+              Nos domaines
+            </span>
 
             <h2>
-              Une expertise pensée pour votre réalité.
+              Une entreprise,
+              <br />
+              plusieurs solutions.
             </h2>
 
             <p>
-              Nous combinons technologie, proximité et vision
-              commerciale pour créer des solutions réellement utiles.
+              SKD intervient dans plusieurs domaines complémentaires
+              pour accompagner les entrepreneurs, entreprises et étudiants.
             </p>
+
           </div>
 
           <div className="row g-4">
 
-            <div className="col-md-6 col-lg-3">
-              <div className="skd-need-card">
-                <div className="skd-need-icon">
-                  <i className="bi bi-geo-alt"></i>
+            {services.map((service) => (
+              <div className="col-md-6" key={service.number}>
+
+                <div className="skd-service-card">
+
+                  <span className="skd-service-number">
+                    {service.number}
+                  </span>
+
+                  <div className="skd-service-icon">
+                    <i className={`bi ${service.icon}`}></i>
+                  </div>
+
+                  <h3>{service.title}</h3>
+
+                  <p>{service.description}</p>
+
+                  <ul className="skd-service-list">
+
+                    {service.items.map((item) => (
+                      <li key={item}>
+                        <i className="bi bi-check2"></i>
+                        {item}
+                      </li>
+                    ))}
+
+                  </ul>
+
+                  <Link
+                    to={service.link}
+                    className="btn-skd-outline"
+                  >
+                    Découvrir
+                    <i className="bi bi-arrow-right"></i>
+                  </Link>
+
                 </div>
 
-                <h3>Proximité</h3>
+              </div>
+            ))}
+
+          </div>
+
+        </div>
+      </section>
+
+      {/* =========================================================
+          PROCESSUS COMMERCIAL
+      ========================================================= */}
+      <section className="skd-section">
+        <div className="container">
+
+          <div className="skd-section-title">
+
+            <span className="eyebrow">
+              Notre méthode
+            </span>
+
+            <h2>
+              Du besoin à la solution.
+            </h2>
+
+            <p>
+              Nous privilégions une approche simple, transparente
+              et orientée vers la réalisation.
+            </p>
+
+          </div>
+
+          <div className="row g-4">
+
+            <div className="col-md-3">
+              <div className="skd-need-card text-center">
+                <div className="skd-need-icon mx-auto">
+                  <span>01</span>
+                </div>
+
+                <h3>Échange</h3>
 
                 <p>
-                  Basés à Libreville, nous comprenons les réalités
-                  du marché local.
+                  Nous comprenons votre activité, votre problème
+                  et votre objectif.
                 </p>
               </div>
             </div>
 
-            <div className="col-md-6 col-lg-3">
-              <div className="skd-need-card">
-                <div className="skd-need-icon">
-                  <i className="bi bi-cpu"></i>
+            <div className="col-md-3">
+              <div className="skd-need-card text-center">
+                <div className="skd-need-icon mx-auto">
+                  <span>02</span>
                 </div>
 
-                <h3>Expertise technologique</h3>
+                <h3>Proposition</h3>
 
                 <p>
-                  Nous associons développement logiciel et outils
-                  numériques pour résoudre des problèmes concrets.
+                  Nous définissons une solution adaptée à votre
+                  besoin et à votre budget.
                 </p>
               </div>
             </div>
 
-            <div className="col-md-6 col-lg-3">
-              <div className="skd-need-card">
-                <div className="skd-need-icon">
-                  <i className="bi bi-bullseye"></i>
+            <div className="col-md-3">
+              <div className="skd-need-card text-center">
+                <div className="skd-need-icon mx-auto">
+                  <span>03</span>
                 </div>
 
-                <h3>Orientation résultats</h3>
+                <h3>Réalisation</h3>
 
                 <p>
-                  Notre objectif n'est pas seulement de livrer un outil,
-                  mais de créer de la valeur pour votre activité.
+                  Après validation, nous réalisons et mettons
+                  en place la solution.
                 </p>
               </div>
             </div>
 
-            <div className="col-md-6 col-lg-3">
-              <div className="skd-need-card">
-                <div className="skd-need-icon">
-                  <i className="bi bi-globe2"></i>
+            <div className="col-md-3">
+              <div className="skd-need-card text-center">
+                <div className="skd-need-icon mx-auto">
+                  <span>04</span>
                 </div>
 
-                <h3>Vision internationale</h3>
+                <h3>Accompagnement</h3>
 
                 <p>
-                  Nous connectons les projets locaux à de nouvelles
-                  opportunités régionales et internationales.
+                  Nous vous aidons à utiliser la solution
+                  et à en tirer de la valeur.
                 </p>
               </div>
             </div>
@@ -384,20 +595,81 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA */}
+      {/* =========================================================
+          POURQUOI SKD
+      ========================================================= */}
+      <section className="skd-section skd-section-light">
+        <div className="container">
+
+          <div className="skd-section-title">
+
+            <span className="eyebrow">
+              Pourquoi SKD ?
+            </span>
+
+            <h2>
+              La technologie au service
+              <br />
+              de votre activité.
+            </h2>
+
+          </div>
+
+          <div className="row g-4">
+
+            {advantages.map((advantage) => (
+              <div
+                className="col-md-6 col-lg-3"
+                key={advantage.title}
+              >
+
+                <div className="skd-need-card">
+
+                  <div className="skd-need-icon">
+                    <i className={`bi ${advantage.icon}`}></i>
+                  </div>
+
+                  <h3>{advantage.title}</h3>
+
+                  <p>{advantage.description}</p>
+
+                </div>
+
+              </div>
+            ))}
+
+          </div>
+
+        </div>
+      </section>
+
+      {/* =========================================================
+          CTA FINAL
+      ========================================================= */}
       <section className="skd-cta">
+
         <div className="container">
 
           <div className="row align-items-center">
 
             <div className="col-lg-8">
-              <h2>Parlons de votre projet.</h2>
+
+              <span className="eyebrow">
+                Parlons de votre projet
+              </span>
+
+              <h2>
+                Vous avez un besoin ?
+                <br />
+                Nous avons une solution.
+              </h2>
 
               <p>
-                Vous avez une idée, un problème à résoudre ou une
-                activité à développer ? Échangeons et trouvons
-                ensemble une solution adaptée.
+                Digitalisation, marketing, commerce international,
+                développement ou mobilité académique : expliquez-nous
+                votre besoin et construisons la bonne solution.
               </p>
+
             </div>
 
             <div className="col-lg-4 text-lg-end">
@@ -409,7 +681,7 @@ export default function Home() {
                 className="btn-skd-whatsapp"
               >
                 <i className="bi bi-whatsapp"></i>
-                Demander un devis
+                Parler à SKD
               </a>
 
             </div>
@@ -417,6 +689,7 @@ export default function Home() {
           </div>
 
         </div>
+
       </section>
     </>
   );

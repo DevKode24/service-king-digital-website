@@ -11308,18 +11308,3 @@ a {
   }
 
 }
-
-
-/* =========================================================
-   ACCESSIBILITY
-   ========================================================= */
-
-@media (prefers-reduced-motion: reduce) {
-
-  .skd-about-page *,
-  .skd-about-page *::before,
-  .skd-about-page *::after {
-    transition: none !important;
-    animation: none !important;
-  }
-}
