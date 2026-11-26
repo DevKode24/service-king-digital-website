@@ -30,7 +30,7 @@ export default function Services() {
       title: "Marketing digital & développement commercial",
       description:
         "Nous transformons votre présence numérique en véritable outil de visibilité, d'acquisition et de développement commercial.",
-      image: "/images/services/marketing.jpg",
+      image: "/images/services/md.png",
       link: "/marketing-digital",
       services: [
         "Stratégie numérique",
@@ -50,7 +50,7 @@ export default function Services() {
       title: "Commerce international & approvisionnement",
       description:
         "Nous accompagnons entreprises et particuliers dans leurs projets d'achat, de sourcing et d'approvisionnement à l'international.",
-      image: "/images/services/commerce.jpg",
+      image: "/images/services/comi.jpg",
       link: "/commerce-international",
       services: [
         "Recherche de produits",
@@ -69,7 +69,7 @@ export default function Services() {
       title: "Mobilité académique & accompagnement étudiant",
       description:
         "Nous accompagnons les étudiants et futurs étudiants dans leurs projets d'études et de mobilité internationale.",
-      image: "/images/services/mobilite.jpg",
+      image: "/images/services/bourse.png",
       link: "/mobilite-academique",
       services: [
         "Orientation académique",
@@ -222,7 +222,7 @@ export default function Services() {
                 <div className="services-main-image">
 
                   <img
-                    src="/images/services/services-hero.jpg"
+                    src="/images/services/mr1.png"
                     alt="Services Service King Digital"
                   />
 
@@ -299,7 +299,7 @@ export default function Services() {
 
                 <div className="mission-image-main">
                   <img
-                    src="/images/services/mission.jpg"
+                    src="/images/services/mission.png"
                     alt="SKD accompagne les entreprises"
                   />
                 </div>

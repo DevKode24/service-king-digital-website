@@ -75,7 +75,7 @@ export default function About() {
       description:
         "Définit la vision, la stratégie et les grandes orientations de Service King Digital. Il coordonne les différents pôles et veille au développement global de SKD.",
       icon: "bi-person-badge",
-      image: "/images/team/directeur-general.jpg",
+      image: "/images/team/dg.jpeg",
       featured: true,
     },
     {
@@ -112,7 +112,7 @@ export default function About() {
       description:
         "Coordonne l'accompagnement académique : orientation, recherche de programmes, bourses, candidatures internationales et préparation des projets d'études.",
       icon: "bi-mortarboard",
-      image: "/images/team/responsable-mobilite.jpg",
+      image: "/images/team/ym.png",
     },
   ];
 
